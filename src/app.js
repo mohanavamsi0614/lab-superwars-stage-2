@@ -54,7 +54,7 @@ const buildPlayers = (players, type) => {
         if (players[i].type==type){
 
     fragment+="<div class='player'>"+
-   "<img src='"+players[i].image+"'>"+
+   "<img src="+players[i].image+" alt=' '>"+
    "<div class='name'>"+players[i].name+"</div>"+
    "<div class='strength'>"+players[i].strength+"</div>"+
 "</div>"   
